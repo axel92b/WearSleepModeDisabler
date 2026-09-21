@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sleep Off</string>
+    <string name="automation">Auto sleep off</string>
+    <string name="daily_at">Every day at</string>
+    <string name="time_description">Turn Sleep mode and DND off daily at %1$s. Tap to change.</string>
+    <string name="setup">Setup &amp; test</string>
+    <string name="choose_time">Choose time</string>
+    <string name="hour">Hour</string>
+    <string name="minute">Minute</string>
+    <string name="time_separator">:</string>
+    <string name="save">Save</string>
+    <string name="ready">Sleep and DND control available.</string>
+    <string name="automation_off">Off. No scheduled changes.</string>
+    <string name="scheduled">Scheduled</string>
+    <string name="next_run">Next: %1$s\nWatch local time</string>
+    <string name="sleep_permission_required">Setup needed: grant Sleep control permission using ADB. See the project README.</string>
+    <string name="dnd_permission_required">Setup needed: allow Do Not Disturb access. Tap Allow DND access, or use the ADB command in the README.</string>
+    <string name="allow_dnd">Allow DND access</string>
+    <string name="dnd_adb_instructions">This watch has no DND permission screen. Run: adb shell cmd notification allow_dnd com.wearsleepmodedisabler</string>
+    <string name="alarm_permission_required">Setup needed: allow precise alarms.</string>
+    <string name="unsupported_device">Unsupported device. This app requires a Samsung Wear OS watch.</string>
+    <string name="unknown_setting">Sleep setting missing or unrecognized. Toggle Sleep mode manually once, then reopen the app. If this persists, this firmware is unsupported.</string>
+    <string name="read_failed">Cannot read the Sleep setting. Check ADB permission and logs.</string>
+    <string name="write_failed">Failed to change the Sleep setting. Check ADB permission and logs.</string>
+    <string name="verify_failed">The Sleep setting did not stay off. Check watch/phone mode sync.</string>
+    <string name="dnd_read_failed">Sleep setting is off, but DND state could not be checked. Check DND access and logs.</string>
+    <string name="dnd_write_failed">Sleep setting is off, but DND could not be disabled. Check DND access and logs.</string>
+    <string name="dnd_verify_failed">Sleep setting is off, but DND is still active. Check other modes and phone sync, then try again.</string>
+    <string name="both_off">Sleep setting and DND are off. Verify both modes exited on the watch.</string>
+    <string name="both_already_off">Sleep setting and DND are already off. No change made.</string>
+    <string name="setting_off">Sleep setting changed to off. Verify Sleep mode actually exited on the watch.</string>
+    <string name="already_off">Sleep setting is already off. No change made.</string>
+    <string name="setup_explanation">One-time setup is required. Follow the README to grant WRITE_SECURE_SETTINGS and DND access. No root or phone app is needed.</string>
+    <string name="compatibility_warning">Samsung uses an undocumented setting. One UI 8 compatibility must be checked on your watch. A successful write alone does not prove Sleep mode exited.</string>
+    <string name="alarms_allowed">Precise alarms allowed.</string>
+    <string name="allow_alarms">Allow alarms</string>
+    <string name="alarm_adb_instructions">This watch has no alarm permission screen. Use the ADB appops command in the README, then reopen the app.</string>
+    <string name="test_instructions">Turn Sleep mode on manually, then tap Test now. Check that both Sleep and DND turn off. This runs immediately, even if automation is off. Each run also turns off separately enabled DND, even if Sleep is already off.</string>
+    <string name="test_now">Test now</string>
+    <string name="no_attempt">No attempts yet.</string>
+    <string name="last_attempt">Last attempt: %1$s\n%2$s</string>
+</resources>

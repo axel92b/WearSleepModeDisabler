@@ -1,7 +1,8 @@
 # Sleep Off for Galaxy Watch
 
 A small standalone Wear OS app with an **Auto sleep off** switch and a daily,
-24-hour time picker. Defaults: **enabled, 06:00**, in the watch's local time.
+24-hour time picker. Turns off manually enabled sleep mode. 
+Defaults: **enabled, 06:00**, in the watch's local time.
 Each run turns off **both Sleep mode and Do Not Disturb (DND)**.
 The scheduled action is silent; no phone app, internet, continuous service, sound,
 or vibration is used.

@@ -6,6 +6,12 @@ Each run turns off **both Sleep mode and Do Not Disturb (DND)**.
 The scheduled action is silent; no phone app, internet, continuous service, sound,
 or vibration is used.
 
+> **Samsung watches only.** This app is designed exclusively for Samsung Galaxy
+> Watch devices running Wear OS (One UI Watch). It relies on Samsung-specific
+> Sleep mode settings and will not work on Wear OS watches from other
+> manufacturers (e.g., Google Pixel Watch, Fossil, TicWatch). On unsupported
+> devices, the app refuses to act rather than reporting a false success.
+
 ## Bezel navigation
 
 Rotate the physical bezel (Watch 6 Classic), or use the enabled touch bezel
